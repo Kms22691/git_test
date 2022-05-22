@@ -1,1 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 
+    <style>
+        .A1 {
+            background-color: green;
+            color: white;
+            font-size: 18px;
+        }
+    </style>
+
+</head>
+<body>
+    <h2>Assignment 6 - Cascading fix:</h2>
+    <p class="para">I'm just a paragraph with red text!</p>
+    <p class="para small-para">I'm a smaller paragraph, also with red text!</p>
+
+    <button id="confirm-button" class="button confirm">Confirm</button>
+    <button id="cancel-button" class="button cancel">Cancel</button>
+
+    <div class="text">I'm a div with green text!</div>
+    <div class="text">I'm a div with green text and a child div!
+      <div class="text child">I'm a smaller child div with red text.</div>
+    </div>
+
+    <h2>Assignment 5 - Descendant Combinator:</h2>
+    <div class="container">
+       <p class="text">This should be styled</p> 
+    </div>
+
+    <p class="text">This should not be unstyled</p>
+    <p class="text">This should not be unstyled</p>
+    
+    <div class="container">
+        <p class="text">This should be styled</p>
+        <p class="text">This should be styled</p>
+    </div>
+    
+    
+    
+
+    <h2>Assignment 4 - img manipulation using css classes:</h2>
+    <img class= "avatar proportioned", src="./lady.jpg" alt="man pic">
+    <img class= "avatar distorted" src="./man.jpg"  alt="lady pic">
+
+    <h2>Assingment 3 - playing with classes:</h2>
+    <button class="first">Click Me!</button>
+    <button class="second">No, Click Me!</button>
+
+    <h2>Assignment 2 - using class and id:</h2>
+        <p class="odd">Number 1 - im a class!</p>
+        <p id="second-p">Number 2 - im one ID.</p>
+        <p class="odd" class="third-p">Number 3 - im a class, but cooler!</p>
+        <p id="fourth-p">Number 4 - im another ID.</p>
+        <p  class="odd">Number 5 - im a class!</p>
+   
+
+
+
+
+    <h2>Assignment 1 - types of styling internal, inline, and external:</h2>
+    <div class="h1-heading">
+        <h1>This is using external stylesheet</h1>
+    </div>
+    <p class="A1">This is using internal</p>
+    <button style="background-color: orange; font-size: 18px;">This is using inline</button>
+</body>
+</html>

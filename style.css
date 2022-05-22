@@ -1,4 +1,94 @@
+.para {
+    color: red;
+    font-size: 20px;
+}
+
+.para.small-para {
+    color: red;
+    font-size: 10px;
+}
+
+#confirm-button {
+    background-color: green;
+    color: white;
+
+}
+
+#cancel-button {
+    background-color: white;
+    color: black;
+}
+
+div.text {
+    font-size: 20px;
+    color: green;
+}
+
+.text.child {
+    font-size: 15px;
+    color: red;
+}
+
+.container .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+.avatar.proportioned {
+    width: 300px;
+    height: auto;
+}
+
+.avatar.distorted {
+    height: 400px;
+    width: 200px;
+}
+
+.ladypic {
+    width: 300px;
+}
+
+.first {
+    background-color: black;
+    color: white;
+}
+
+.second {
+    background-color: yellow;
+}
+
+.first, .second {
+    font-size: 28px;
+    font-family: Helvetica, "Time New Roman", sans-serif;
+}
+
+#second-p  {
+    color: blue;
+    font-size: 36px;
+}
+
+.odd {
+    background-color: pink;
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+.third-p {
+    font-size: 24px;
+}
+
+#fourth-p {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: 700;
+}
+
 .h1-heading {
-    font-family:'Times New Roman', Times, serif ;
+    
     background-color: red;
+    color: white;
+    font-size: 32px;
+    align-content: center;
+    font-weight: bold;
 }
