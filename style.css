@@ -1,3 +1,7 @@
+* {
+    border: 2px solid red;
+}
+
 .para {
     color: red;
     font-size: 20px;
@@ -9,7 +13,7 @@
 }
 
 #confirm-button {
-    background-color: green;
+    background- mcolor: green;
     color: white;
 
 }
